@@ -1,11 +1,39 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root {
+  --text50px: 50px;
+  --color: red;
 }
 header {
-  width: 100%;
-  background-color: red;
+  background-color: black;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: var(--text50px);
+  color: var(--color);
+  display: inline;
+}
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
   padding: 10px;
+  margin: 12px 10px 0 0;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 26px;
+  color: var(--color);
+}
+
+.hero {
+  background-image: url(/images/windowsXP.jpg);
+  width: 100%;
 }
