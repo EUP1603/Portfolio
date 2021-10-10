@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 :root {
   --text50px: 50px;
-  --color: red;
+  --color: green;
+  --background: black;
 }
 header {
-  background-color: black;
+  background-color: var(--background);
   padding: 20px;
 }
 
@@ -34,6 +36,27 @@ header a {
 }
 
 .hero {
-  background-image: url(/images/windowsXP.jpg);
-  width: 100%;
+  background-image: url(/Portfolio/images/windowsXP.jpg);
+  background-size: cover;
+  height: 200px;
+  padding: 150px 0 0 0;
+  background-position: center;
+}
+.hero-sub {
+  font-size: 35px;
+  float: right;
+  text-align: right;
+  padding: 1px;
+  margin: 0 20px 0 0;
+  color: var(--color);
+  background-color: var(--background);
+}
+
+.contents nav h4 {
+  color: var(--color);
+  font-size: var(--text50px);
+}
+
+.contents nav ul li {
+  margin: 25px 0 25px 100px;
 }
