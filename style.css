@@ -12,6 +12,8 @@
 header {
   background-color: var(--background);
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
@@ -36,7 +38,7 @@ header a {
 }
 
 .hero {
-  background-image: url(/Portfolio/images/windowsXP.jpg);
+  background-image: url(images/windowsXP.jpg);
   background-size: cover;
   height: 200px;
   padding: 150px 0 0 0;
@@ -44,12 +46,17 @@ header a {
 }
 .hero-sub {
   font-size: 35px;
-  float: right;
-  text-align: right;
+  float: Right;
   padding: 1px;
   margin: 0 20px 0 0;
   color: var(--color);
   background-color: var(--background);
+}
+
+.contents {
+  display: flex;
+  justify-content: left;
+  text-align: right;
 }
 
 .contents nav h4 {
@@ -59,4 +66,5 @@ header a {
 
 .contents nav ul li {
   margin: 25px 0 25px 100px;
+  list-style: none;
 }
