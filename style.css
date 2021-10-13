@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
   font-family: "Times New Roman", Times, serif;
 }
 :root {
@@ -21,6 +22,7 @@ header h1 {
   color: var(--color);
   display: inline;
 }
+
 header nav {
   float: right;
 }
@@ -29,12 +31,19 @@ header nav ul li {
   display: inline-block;
   padding: 10px;
   margin: 12px 10px 0 0;
+  border-bottom: green 3px solid;
 }
 
-header a {
+header nav ul li a {
   text-decoration: none;
   font-size: 26px;
   color: var(--color);
+}
+
+header a:hover {
+  color: black;
+  background-color: yellow;
+  padding: 5px;
 }
 
 .hero {
@@ -47,7 +56,7 @@ header a {
 .hero-sub {
   font-size: 35px;
   float: Right;
-  padding: 1px;
+  padding: 2px;
   margin: 0 20px 0 0;
   color: var(--color);
   background-color: var(--background);
@@ -57,14 +66,33 @@ header a {
   display: flex;
   justify-content: left;
   text-align: right;
+  position: absolute;
 }
 
 .contents nav h4 {
   color: var(--color);
   font-size: var(--text50px);
+  border-right: green 3px solid;
+  padding: 0 10px 20px 0;
 }
 
 .contents nav ul li {
   margin: 25px 0 25px 100px;
   list-style: none;
+}
+
+#work {
+  padding: 0 10px 300px 0;
+  border-right: green 3px solid;
+}
+
+.about-me {
+  margin: 50px 20px 0 20px;
+  display: flex;
+  text-align: left;
+}
+
+.about-me p {
+  font-size: 1.6vw;
+  color: var(--color);
 }
