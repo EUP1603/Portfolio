@@ -82,17 +82,23 @@ header a:hover {
 }
 
 #work {
-  padding: 0 10px 300px 0;
+  padding: 0 10px 500px 0;
   border-right: green 3px solid;
 }
 
 .about-me {
   margin: 50px 20px 0 20px;
-  display: flex;
-  text-align: left;
 }
 
 .about-me p {
+  display: flex;
+  text-align: left;
   font-size: 1.6vw;
   color: var(--color);
+}
+
+.work div {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
 }
