@@ -148,5 +148,13 @@ header a:hover {
 }
 
 .contact {
-  display: inline-block;
+  text-align: center;
+  margin-top: 265px;
+  font-size: 1.5vw;
+}
+
+.resume {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 1.5vw;
 }
